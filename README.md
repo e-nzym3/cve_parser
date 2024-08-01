@@ -9,13 +9,13 @@ This tool is a wrapper for CVEMap (https://github.com/projectdiscovery/cvemap).
 3. Get yourself a ProjectDiscovery Cloud Platform API key (it's free, just log in): https://cloud.projectdiscovery.io/?ref=api_key
 4. Run `cvemap -auth` and enter your API key. This will configure CVEMap with the key for future use, no need to re-run this command.
 ## Usage
-```
+```console
 ./cve_parser.sh [-c] filename
   -c  Cleanup chunk files after processing
 ```
 The output file relies on the input file's name. If you use the same input file name, you may run into issues with overwritting. Try using unique input file names.
 ### Example
-```
+```console
 $ git clone https://github.com/e-nzym3/cve_parser.git
 $ cd https://github.com/e-nzym3/cve_parser
 $ ls
