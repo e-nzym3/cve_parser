@@ -34,23 +34,23 @@ $ ./cve_parser.sh -c cves.txt
 
 [*] Created chunk 1: lines 1 to 100
 [*] Removed chunk file: cves.txt_chunk_1
-CSV Output File cves.txt_chunk_parsed.csv does not exist. Creating it.
+CSV output file cves.txt_chunk_parsed.csv does not exist. Creating it.
 
 [*] Created chunk 2: lines 101 to 200
 [*] Removed chunk file: cves.txt_chunk_2
-CSV Output File cves.txt_chunk_parsed.csv exists, appending results to it.
+CSV output file cves.txt_chunk_parsed.csv exists, appending results to it.
 
 [*] Created chunk 3: lines 201 to 300
 [*] Removed chunk file: cves.txt_chunk_3
-CSV Output File cves.txt_chunk_parsed.csv exists, appending results to it.
+CSV output file cves.txt_chunk_parsed.csv exists, appending results to it.
 
 [*] Created chunk 4: lines 301 to 400
 [*] Removed chunk file: cves.txt_chunk_4
-CSV Output File cves.txt_chunk_parsed.csv exists, appending results to it.
+CSV output file cves.txt_chunk_parsed.csv exists, appending results to it.
 
 [*] Created chunk 5: lines 401 to 448
 [*] Removed chunk file: cves.txt_chunk_5
-CSV Output File cves.txt_chunk_parsed.csv exists, appending results to it.
+CSV output file cves.txt_chunk_parsed.csv exists, appending results to it.
 
 [-] File split into 5 chunks and processed with cvemap!
 [-] Check file ending in _parsed.csv for output!
