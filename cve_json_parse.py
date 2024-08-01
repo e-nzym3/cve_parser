@@ -29,10 +29,10 @@ def main():
     
     # Check if the output file exists
     if os.path.isfile(output_filename):
-        print(f"CSV Output File {output_filename} exists, appending results to it.\n")
+        print(f"CSV output file {output_filename} exists, appending results to it.\n")
         output_append = "a"
     else:
-        print(f"CSV Output File {output_filename} does not exist. Creating it.\n")
+        print(f"CSV output file {output_filename} does not exist. Creating it.\n")
 
     with open(output_filename,output_append) as wf:
         # Write the header for the csv if creating the file. CSV will have 4 columns:
