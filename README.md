@@ -13,7 +13,8 @@ This tool is a wrapper for CVEMap (https://github.com/projectdiscovery/cvemap).
 ./cve_parser.sh [-c] filename
   -c  Cleanup chunk files after processing
 ```
-The output file relies on the input file's name. If you use the same input file name, you may run into issues with overwritting. Try using unique input file names.
+The output file relies on the input file's name. If you use the same input file name, you may run into issues with overwritting. Try using unique input file names.<br><br>
+_Note: CVEMap limits to 100 CVEs per run, so the script will divide input down to 100 line chunks_
 ### Example
 ```console
 $ git clone https://github.com/e-nzym3/cve_parser.git
