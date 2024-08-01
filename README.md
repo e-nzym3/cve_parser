@@ -1,7 +1,7 @@
 # CVE Parser
 Utility to ingest a list of CVEs and return a CSV that contains details on whether the CVE is a remote exploit, has POCs available, and links to the individual POCs.
 <br><br>
-This tool is a wrapper to (CVEMap)[https://github.com/projectdiscovery/cvemap].
+This tool is a wrapper for CVEMap (https://github.com/projectdiscovery/cvemap).
 <br><br>
 ## Initial Config
 1. Download the most recent compiled binaries from the CVEMap repo releases page: https://github.com/projectdiscovery/cvemap/releases
