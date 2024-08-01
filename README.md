@@ -56,3 +56,9 @@ CSV output file cves.txt_chunk_parsed.csv exists, appending results to it.
 [-] File split into 5 chunks and processed with cvemap!
 [-] Check file ending in _parsed.csv for output!
 ```
+
+### Sample Out:
+```csv
+CVE;Remote Exploit?;POC Available;POCs
+CVE-2023-3189;True;True;https://github.com/M9KJ-TEAM/CVEReport/blob/main/XSS.md
+```
